@@ -1,0 +1,39 @@
+body {
+    background-color: #3bd6c6;
+    color: 111111;
+    font-family: "Noto Sans", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    margin: 60px;
+    text-align: center;
+}
+
+.h1 {
+    padding-bottom: 20px;
+}
+
+.btn {
+    background-color: white;
+    border-radius: 2px;
+    border: 0;
+    box-shadow: 0 2px 2px rgba(26, 35, 126, 0.4);
+    color: #111111;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 3.5;
+    /*margin-bottom: 20px;*/
+    padding: 0 40px;
+    text-transform: uppercase;
+    -webkit-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+}
+
+.btn:active,
+.btn:focus,
+.btn:hover {
+    box-shadow: 0 2px 14px rgba(26, 35, 126, 0.8);
+}
+
+
+/*i {
+    margin: 0 auto;
+}*/
